@@ -1,6 +1,6 @@
 <?php
 namespace App\Models;
-class CatModel
+class Cat
 {
     private $db;
 

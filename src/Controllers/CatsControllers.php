@@ -1,13 +1,16 @@
 <?php
 namespace App\Controllers;
-class CatsController
+
+use App\Models\Cat;
+
+class CatController
 {
     private $model;
 
     /**
      * Inject CatModel dependency
      */
-    public function __construct(CatModel $model)
+    public function __construct(Cat $model)
     {
         $this->model = $model;
     }

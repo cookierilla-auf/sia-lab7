@@ -8,8 +8,8 @@ $dotenv->load();
 
 $db = getConnection();
 
-$catModel = new \App\Models\CatModel($db);
-$catController = new \App\Controllers\CatController($catModel);
+$Cat = new \App\Models\Cat($db);
+$catController = new \App\Controllers\CatController($Cat);
 
 $router = new \Bramus\Router\Router();
 
