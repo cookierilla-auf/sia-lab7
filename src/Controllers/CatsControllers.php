@@ -1,6 +1,6 @@
 <?php
 namespace App\Controllers;
-class CatController
+class CatsController
 {
     private $model;
 
