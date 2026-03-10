@@ -3,7 +3,7 @@
     "description": "sia lab 7",
     "autoload": {
         "psr-4": {
-            "Escoto\\SiaLab7\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [

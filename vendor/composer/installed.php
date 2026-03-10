@@ -3,7 +3,7 @@
         'name' => 'escoto/sia-lab7',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '10f19187783d35cfe519da05a8c8585e61f76795',
+        'reference' => '2f0324934ffb94ff533c5eca3417d64006e3c609',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'escoto/sia-lab7' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '10f19187783d35cfe519da05a8c8585e61f76795',
+            'reference' => '2f0324934ffb94ff533c5eca3417d64006e3c609',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

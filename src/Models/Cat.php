@@ -7,7 +7,7 @@ class Cat
     /**
      * Constructor Injection of the database connection
      */
-    public function __construct(PDO $db)
+    public function __construct(\PDO $db)
     {
         $this->db = $db;
     }
@@ -19,7 +19,7 @@ class Cat
     {
         $stmt = $this->db->prepare("SELECT * FROM cats");
         $stmt->execute();
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $stmt->fetchAll(\PDO::FETCH_ASSOC);
     }
 
     /**
@@ -29,7 +29,7 @@ class Cat
     {
         $stmt = $this->db->prepare("SELECT * FROM cats WHERE id = ?");
         $stmt->execute([$id]);
-        return $stmt->fetch(PDO::FETCH_ASSOC);
+        return $stmt->fetch(\PDO::FETCH_ASSOC);
     }
 
     /**

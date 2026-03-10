@@ -27,13 +27,13 @@ class ComposerStaticInit620a40e5d29a92b28a9f9bd79083c9d2
         array (
             'GrahamCampbell\\ResultType\\' => 26,
         ),
-        'E' =>
-        array (
-            'Escoto\\SiaLab7\\' => 15,
-        ),
         'D' =>
         array (
             'Dotenv\\' => 7,
+        ),
+        'A' =>
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -58,13 +58,13 @@ class ComposerStaticInit620a40e5d29a92b28a9f9bd79083c9d2
         array (
             0 => __DIR__ . '/..' . '/graham-campbell/result-type/src',
         ),
-        'Escoto\\SiaLab7\\' =>
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'Dotenv\\' =>
         array (
             0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
+        'App\\' =>
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
